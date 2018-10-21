@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    list-style:none;
+}
+.banner{
+    background:#ff2f7c;
+    
+}
+.banner img{
+    margin: 0 auto;
+    
+    display:block;
+}
