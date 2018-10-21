@@ -6,6 +6,9 @@
 ul{
     list-style:none;
 }
+body{
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
 .banner{
     background:#ff2f7c;
     
@@ -23,8 +26,34 @@ ul{
 }
 .wrapper{
     width: 1230px;
-    background: red;
+    /* background: red; */
     margin: 0 auto;
     height: 32px;
 
+}
+.header-login{
+    height: 41px;
+    line-height: 41px;
+    font-size: 12px;
+    float: left;
+}
+.header-login span,.header-login a{
+    color: #999999;
+}
+.header-login a{
+    padding: 20px;
+}
+.header-login a:hover{
+    color: #FF0036;
+}
+.header-list li{
+    float: right;
+    line-height: 41px;
+    padding:0 15px 0 20px;
+}
+.header-list li a{
+    color: #999;
+}
+header.header-list a:hover{
+    color: #FF0036;
 }
